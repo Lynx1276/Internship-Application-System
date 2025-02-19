@@ -76,12 +76,13 @@
                     <?php else: ?>
                         <!-- Guest Navigation -->
                         <a href="/index.php" class="nav-link px-3 py-2 hover:text-orange-400 transition-colors flex items-center">
-                            <i class="fas fa-home mr-2"></i>
                             <span>Home</span>
                         </a>
                         <a href="/apply.php" class="nav-link px-3 py-2 hover:text-orange-400 transition-colors flex items-center">
-                            <i class="fas fa-paper-plane mr-2"></i>
                             <span>Apply</span>
+                        </a>
+                        <a href="/contact.php" class="nav-link px-3 py-2 hover:text-orange-400 transition-colors flex items-center">
+                            <span>Contact</span>
                         </a>
                         <a href="../auth/login.php" class="nav-link px-3 py-2 hover:text-orange-400 transition-colors flex items-center">
                             <i class="fas fa-sign-in-alt mr-2"></i>
